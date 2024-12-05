@@ -1,4 +1,4 @@
-import { Workflow } from './types/workflowType'; 
+import { Workflow } from '../types/workflowType'; 
 
 export let workflows: Workflow[] = [
   {

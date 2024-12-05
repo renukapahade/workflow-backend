@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { workflows } from './sample_workflow'; 
+import { workflows } from './data/sample_workflow'; 
 import { taskLibrary } from './taskLibrary';
 
 export const startWorkflow = async (req: Request, res: Response) => {

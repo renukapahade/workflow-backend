@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import { workflowRouter } from './routes';
+import { workflowRouter } from './routes/workflow';
 
 const app = express();
 const PORT = 3001;

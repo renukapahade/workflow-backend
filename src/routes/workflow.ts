@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { Request, Response, NextFunction } from 'express';
-import { startWorkflow, updateTaskDecision, getWorkflowStatus } from './workflows';
+import { startWorkflow, updateTaskDecision, getWorkflowStatus } from '../workflows';
 
 const workflowRouter = Router();
 
